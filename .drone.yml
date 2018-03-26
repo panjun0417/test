@@ -1,3 +1,6 @@
-image: ubuntu_base
-script:
-    - echo hello world
+pipeline:
+  build:
+    image: ubuntu_base
+    commands:
+      - echo hello world
+
